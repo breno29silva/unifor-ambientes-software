@@ -10,4 +10,9 @@ public class Cachorro extends Animal{
 	void emitirSom() {
 		System.out.println("Som de cachorro");	
 	}
+
+	@Override
+	public String toString() {
+		return "Oi, eu sou um cachorro e meu nome é " + getNome();
+	}
 }
